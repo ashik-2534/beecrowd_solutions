@@ -1,10 +1,8 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+# -*- coding: utf-8 -*-
 
-var sellerName = lines[0];
-var salary = parseFloat(lines[1]);
-var sales = parseFloat(lines[2]);
-
-var totalSalary = salary + (sales * 0.15);
-
-console.log("TOTAL = R$ " + totalSalary.toFixed(2));
+seller_name=str(input())
+fixed_salary = float(input())
+total_sale = float(input())
+bonus = total_sale * 0.15
+final_salary = fixed_salary + bonus
+print(f"TOTAL = R$ {final_salary:.2f}")

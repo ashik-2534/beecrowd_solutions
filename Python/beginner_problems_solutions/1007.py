@@ -1,11 +1,8 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+# -*- coding: utf-8 -*-
 
-var A = parseInt(lines[0]);
-var B = parseInt(lines[1]);
-var C = parseInt(lines[2]);
-var D = parseInt(lines[3]);
-
-var difference = (A * B) - (C * D);
-
-console.log("DIFERENCA = " + difference);
+A=int(input())
+B=int(input())
+C=int(input())
+D=int(input())
+DIFERENCA = (A * B - C * D)
+print(f"DIFERENCA = {DIFERENCA}")

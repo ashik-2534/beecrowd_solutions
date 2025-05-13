@@ -1,9 +1,4 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
-
-var n = 3.14159;
-var R = parseFloat(lines[0]);
-
-var Area = n * (R * R);
-
-console.log("A=" + Area.toFixed(4));
+R= int(input())
+n = 3.14159
+A=n*R**2
+print(f"A={A:.4f}")

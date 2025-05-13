@@ -1,11 +1,6 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
-
-var employeeNumber = parseInt(lines.shift());
-var workedHours = parseInt(lines.shift());
-var hourlyWage = parseFloat(lines.shift());
-
-var salary = workedHours * hourlyWage;
-
-console.log("NUMBER = " + employeeNumber);
-console.log("SALARY = U$ " + salary.toFixed(2));
+number = int(input())
+hours_worked = int(input())
+hourly_salary = float(input())
+total_salary = hours_worked * hourly_salary
+print(f"NUMBER = {number}")
+print(f"SALARY = U$ {total_salary:.2f}")
