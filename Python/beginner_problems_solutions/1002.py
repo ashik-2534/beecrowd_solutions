@@ -1,4 +1,14 @@
-R= int(input())
-n = 3.14159
-A=n*R**2
-print(f"A={A:.4f}")
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+
+R = float(input())
+pi = 3.14159
+
+A = pi * (R**2)
+
+print(f'A={A:.4f}')
