@@ -1,4 +1,14 @@
-A=int(input())
-B=int(input())
-sum = A+B
-print(f"SOMA = {sum}")
+# -*- coding: utf-8 -*-
+
+'''
+Escreva a sua solução aqui
+Code your solution here
+Escriba su solución aquí
+'''
+
+A = int(input())
+B = int(input())
+
+SOMA = A + B
+
+print(f'SOMA = {SOMA}')
